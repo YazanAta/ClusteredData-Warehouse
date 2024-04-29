@@ -1,0 +1,20 @@
+2024-04-29 16:06:34,916 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 21476 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-29 16:06:34,920 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-29 16:06:34,921 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 16:06:39,523 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 5.048 seconds (process running for 5.762)
+2024-04-29 16:30:32,996 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 12552 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-29 16:30:32,997 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-29 16:30:32,998 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 16:30:37,024 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 4.343 seconds (process running for 4.9)
+2024-04-29 16:31:39,412 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 30356 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-29 16:31:39,413 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-29 16:31:39,413 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 16:31:43,032 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.911 seconds (process running for 4.439)
+2024-04-29 16:31:44,778 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 28148 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-29 16:31:44,779 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-29 16:31:44,780 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 16:31:48,412 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.954 seconds (process running for 4.473)
+2024-04-29 16:32:13,890 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 9704 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-29 16:32:13,891 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-29 16:32:13,892 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 16:32:17,536 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.933 seconds (process running for 4.407)
