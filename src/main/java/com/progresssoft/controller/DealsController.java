@@ -1,8 +1,8 @@
-package com.progresssoft.yazan.controller;
+package com.progresssoft.controller;
 
-import com.progresssoft.yazan.dto.DealRequestDTO;
-import com.progresssoft.yazan.model.Deal;
-import com.progresssoft.yazan.service.DealService;
+import com.progresssoft.dto.DealRequestDTO;
+import com.progresssoft.model.Deal;
+import com.progresssoft.service.DealServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -23,12 +23,8 @@ import java.util.List;
 @Validated
 @Tag(name = "Deals", description = "Endpoints for managing deals")
 public class DealsController {
-    private final DealService dealService;
-
     @Autowired
-    public DealsController(DealService dealService) {
-        this.dealService = dealService;
-    }
+    private DealServiceImpl dealService;
 
     @GetMapping
     @Operation(
@@ -54,9 +50,9 @@ public class DealsController {
             responseCode = "404",
             description = "Deal not found"
     )
-    public ResponseEntity<Deal> getDealById(@PathVariable String dealUniqueId) {
-        Deal deal = dealService.getDealById(dealUniqueId);
-        return ResponseEntity.ok(deal);
+    public ResponseEntity<Deal> getDealById(@PathVariable Long dealUniqueId) {
+            Deal deal = dealService.getDealById(dealUniqueId);
+            return ResponseEntity.ok(deal);
     }
 
     @PostMapping("/import")

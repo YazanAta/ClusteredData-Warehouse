@@ -1,4 +1,4 @@
-package com.progresssoft.yazan.validation;
+package com.progresssoft.validation;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

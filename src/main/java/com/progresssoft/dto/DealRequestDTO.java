@@ -1,36 +1,32 @@
-package com.progresssoft.yazan.dto;
+package com.progresssoft.dto;
 
-import com.progresssoft.yazan.validation.CurrencyCode;
+import com.progresssoft.validation.CurrencyCode;
+import jakarta.persistence.Temporal;
+import jakarta.persistence.TemporalType;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
 
 import java.sql.Timestamp;
 
 public class DealRequestDTO {
-    @NotBlank
-    private String dealUniqueId;
-
     @NotBlank(message = "From currency ISO code is required")
+    @NotNull(message = "To currency ISO code is required")
     @CurrencyCode
     private String fromCurrencyIsoCode;
 
     @NotBlank(message = "To currency ISO code is required")
+    @NotNull(message = "To currency ISO code is required")
     @CurrencyCode
     private String toCurrencyIsoCode;
 
     @NotNull(message = "Deal timestamp is required")
+    @Temporal(TemporalType.TIMESTAMP)
     private Timestamp dealTimestamp;
 
     @NotNull(message = "Deal amount is required")
+    @Positive(message = "Deal amount must be greater than 0")
     private Double dealAmount;
-
-    public String getDealUniqueId() {
-        return dealUniqueId;
-    }
-
-    public void setDealUniqueId(String dealUniqueId) {
-        this.dealUniqueId = dealUniqueId;
-    }
 
     public String getFromCurrencyIsoCode() {
         return fromCurrencyIsoCode;

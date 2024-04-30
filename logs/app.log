@@ -1,20 +1,29 @@
-2024-04-29 16:06:34,916 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 21476 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
-2024-04-29 16:06:34,920 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
-2024-04-29 16:06:34,921 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-04-29 16:06:39,523 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 5.048 seconds (process running for 5.762)
-2024-04-29 16:30:32,996 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 12552 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
-2024-04-29 16:30:32,997 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
-2024-04-29 16:30:32,998 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-04-29 16:30:37,024 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 4.343 seconds (process running for 4.9)
-2024-04-29 16:31:39,412 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 30356 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
-2024-04-29 16:31:39,413 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
-2024-04-29 16:31:39,413 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-04-29 16:31:43,032 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.911 seconds (process running for 4.439)
-2024-04-29 16:31:44,778 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 28148 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
-2024-04-29 16:31:44,779 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
-2024-04-29 16:31:44,780 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-04-29 16:31:48,412 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.954 seconds (process running for 4.473)
-2024-04-29 16:32:13,890 INFO c.p.y.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 9704 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
-2024-04-29 16:32:13,891 DEBUG c.p.y.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
-2024-04-29 16:32:13,892 INFO c.p.y.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-04-29 16:32:17,536 INFO c.p.y.JavaTaskApplication [main] Started JavaTaskApplication in 3.933 seconds (process running for 4.407)
+2024-04-30 04:29:18,350 INFO c.p.JavaTaskApplication [main] Starting JavaTaskApplication using Java 17.0.7 with PID 26604 (C:\Users\Yazan\Desktop\Java Task\yazan\yazan\target\classes started by Yazan in C:\Users\Yazan\Desktop\Java Task\yazan\yazan)
+2024-04-30 04:29:18,354 DEBUG c.p.JavaTaskApplication [main] Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30 04:29:18,355 INFO c.p.JavaTaskApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-30 04:29:19,171 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30 04:29:19,225 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-04-30 04:29:19,738 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-30 04:29:19,747 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-04-30 04:29:19,747 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-30 04:29:19,808 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-04-30 04:29:19,808 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1412 ms
+2024-04-30 04:29:19,991 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-30 04:29:20,045 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-30 04:29:20,093 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-30 04:29:20,295 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30 04:29:20,319 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-30 04:29:20,570 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@605eb072
+2024-04-30 04:29:20,572 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-30 04:29:21,295 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-30 04:29:21,335 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 04:29:21,838 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 04:29:22,279 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-30 04:29:22,288 INFO c.p.JavaTaskApplication [main] Started JavaTaskApplication in 4.256 seconds (process running for 4.759)
+2024-04-30 04:29:28,536 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30 04:29:28,536 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-30 04:29:28,537 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-04-30 04:29:29,163 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-8] Init duration for springdoc-openapi is: 312 ms
+2024-04-30 04:37:12,247 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 04:37:12,251 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-30 04:37:12,263 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

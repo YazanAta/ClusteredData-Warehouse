@@ -1,6 +1,8 @@
-package com.progresssoft.yazan.model;
+package com.progresssoft.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.sql.Timestamp;
@@ -8,7 +10,8 @@ import java.sql.Timestamp;
 @Entity
 public class Deal {
     @Id
-    private String dealUniqueId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long dealUniqueId;
     private String fromCurrencyIsoCode;
     private String toCurrencyIsoCode;
     private Timestamp dealTimestamp;
@@ -17,7 +20,7 @@ public class Deal {
     public Deal() {
     }
 
-    public Deal(String dealUniqueId, String fromCurrencyIsoCode, String toCurrencyIsoCode, Timestamp dealTimestamp, Double dealAmount) {
+    public Deal(Long dealUniqueId, String fromCurrencyIsoCode, String toCurrencyIsoCode, Timestamp dealTimestamp, Double dealAmount) {
         this.dealUniqueId = dealUniqueId;
         this.fromCurrencyIsoCode = fromCurrencyIsoCode;
         this.toCurrencyIsoCode = toCurrencyIsoCode;
@@ -25,11 +28,11 @@ public class Deal {
         this.dealAmount = dealAmount;
     }
 
-    public String getdealUniqueId() {
+    public Long getdealUniqueId() {
         return dealUniqueId;
     }
 
-    public void setdealUniqueId(String id) {
+    public void setdealUniqueId(Long id) {
         this.dealUniqueId = id;
     }
 
@@ -48,6 +51,7 @@ public class Deal {
     public void setToCurrencyIsoCode(String toCurrencyIsoCode) {
         this.toCurrencyIsoCode = toCurrencyIsoCode;
     }
+
 
     public Timestamp getDealTimestamp() {
         return dealTimestamp;
