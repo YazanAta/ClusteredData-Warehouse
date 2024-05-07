@@ -9,7 +9,6 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -23,8 +22,11 @@ import java.util.List;
 @Validated
 @Tag(name = "Deals", description = "Endpoints for managing deals")
 public class DealsController {
-    @Autowired
-    private DealServiceImpl dealService;
+    private final DealServiceImpl dealService;
+
+    public DealsController(DealServiceImpl dealService) {
+        this.dealService = dealService;
+    }
 
     @GetMapping
     @Operation(
