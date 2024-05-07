@@ -1,7 +1,20 @@
-FROM eclipse-temurin:17
+FROM openjdk:18-jdk-alpine
+
+RUN apk --no-cache add curl maven
+
+ENV DB_HOST=${DB_HOST}
+ENV DB_NAME=${DB_NAME}
+ENV DB_USER=${DB_USER}
+ENV DB_PASS=${DB_PASS}
 
 WORKDIR /app
 
-ADD target/javatask-0.0.1-SNAPSHOT.jar javatask.jar
+COPY pom.xml .
 
-ENTRYPOINT ["java", "-jar", "javatask.jar"]
+RUN mvn dependency:resolve
+
+COPY src src
+
+RUN mvn package -DskipTests
+
+ENTRYPOINT ["java", "-jar", "target/application.jar"]
