@@ -1,13 +1,14 @@
 package com.progresssoft.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.sql.Timestamp;
 
 @Entity
+@Table(
+        name = "deal",
+        uniqueConstraints = @UniqueConstraint(columnNames = {"deal_amount","deal_timestamp","from_currency_iso_code","to_currency_iso_code"})
+)
 public class Deal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
